@@ -1,12 +1,73 @@
-# Customer Behavior Analysis - Data Analytics Project
+<!-- Header Banner with Animation -->
+<div align="center">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=00c6ff&height=250&section=header&text=Customer%20Behavior%20Analysis&fontSize=45&animation=fadeIn&fontColor=ffffff" width="100%"/>
+</div>
+
+<!-- Animated Typing Text -->
+<div align="center">
+    <a href="https://readme-typing-svg.herokuapp.com"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00c6ff&center=true&vCenter=true&width=600&lines=Decoding+Customer+Behavior;Data-Driven+Business+Insights;Python+%7C+SQL+%7C+Power+BI" alt="Typing SVG" /></a>
+</div>
+
+---
 
 ## 📌 Overview
-This project is a comprehensive end-to-end data analytics initiative focused on analyzing customer behavior patterns. It showcases the full analytics lifecycle – from data extraction and cleaning to advanced visualization and presentation. The project demonstrates proficiency in Python, SQL, Power BI, and business storytelling using Gamma.
+> **Transforming raw transactions into actionable business strategies.**
 
-## 📊 Dataset
-- **Source:** Customer transaction/purchase dataset
-- **Format:** CSV / Excel / Database export
-- **Key Fields:** Customer ID, Purchase Date, Product Category, Quantity, Price, Total Spend, Payment Method, Location, etc.
+This project is a comprehensive **end-to-end data analytics initiative** focused on analyzing customer behavior patterns. It showcases the full analytics lifecycle — from raw data extraction and rigorous cleaning to advanced visualization and high-level presentation. The project demonstrates proficiency in uncovering trends that drive business growth and customer retention.
+
+<br>
+
+## 🛠️ Tools & Technologies
+
+<div align="center">
+  
+  **Data Processing & Analysis**<br>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,pandas,numpy&theme=dark" alt="Python Pandas Numpy"/>
+  </a>
+  <br><br>
+  
+  **Database & Querying**<br>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=postgres,mysql&theme=dark" alt="SQL Databases"/>
+  </a>
+  <br><br>
+
+  **Visualization & Presentation**<br>
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white" alt="Matplotlib" />
+  <img src="https://img.shields.io/badge/Gamma-7F56D9?style=for-the-badge&logo=react&logoColor=white" alt="Gamma" />
+  
+</div>
+
+---
+
+## 📊 Dataset Overview
+
+| 🏷️ Attribute | 📝 Description |
+| :--- | :--- |
+| **Source** | Customer transaction/purchase dataset |
+| **Format** | `CSV` / `Excel` / Database export |
+| **Key Fields** | `Customer ID`, `Purchase Date`, `Product Category`, `Quantity`, `Price`, `Total Spend`, `Payment Method`, `Location` |
+
+---
+
+## ⚙️ Analytics Pipeline & Workflow
+
+```mermaid
+graph TD;
+    A[Raw Data] -->|Pandas| B(Data Loading & Inspection);
+    B --> C(Exploratory Data Analysis - EDA);
+    C -->|Handle Missing/Outliers| D(Data Cleaning);
+    D -->|Export| E[(PostgreSQL / MySQL)];
+    E -->|Complex Queries| F(SQL Analytical Insights);
+    F -->|Data Modeling| G[Power BI Dashboard];
+    G --> H(Gamma Presentation & Reporting);
+    
+    classDef default fill:#00c6ff,stroke:#000,stroke-width:1px,color:#fff;
+    class E,G fill:#1e1e1e,stroke:#00c6ff,stroke-width:2px,color:#fff;
+
+```
 
 ## 🛠️ Tools & Technologies
 
